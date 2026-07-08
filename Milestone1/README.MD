@@ -4,7 +4,7 @@
 Transforming a raw, flat supply chain dataset into an optimized relational Star Schema data model in Power BI.
 
 ## Dataset Source
-[Insert the URL link or description of your raw data file here]
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 
 ## Data Cleaning and Transformation Steps
 * Duplicated primary datasets into dedicated dimension tables (`Dim_Customer`, `Dim_Product`, `Dim_Category`, `Dim_Shipping`, `Dim_location`, `Dim_Department`).
@@ -19,4 +19,3 @@ A clean Star Schema containing 1 central `Fact_table` linked via 1-to-many relat
 * Power BI Desktop
 * Power Query Editor
 * DAX (Data Analysis Expressions)
-*
